@@ -1,0 +1,27 @@
+/* CSS Document */
+.bgimg {
+	background-image:url(SNBB1.jpg);
+	background-position: center;
+	height:100%;
+	position: relative;
+    color: red;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+	opacity:0.7;
+	}	
+	
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+body, html {
+    height: 100%
+}
